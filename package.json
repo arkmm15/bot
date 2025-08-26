@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@adiwajshing/baileys": "^6.6.0",
+    "axios": "^1.7.0",
+    "ytdl-core": "^4.11.5",
+    "pino": "^8.17.0"
+  }
+}
