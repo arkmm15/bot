@@ -1,8 +1,29 @@
 {
+  "name": "bot-wa-allmenu-by-arkeditzz",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot dengan Baileys - fitur allmenu, stiker, confess, bug, TikTok & YouTube downloader",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "tiktok-downloader",
+    "youtube-downloader",
+    "sticker-bot",
+    "arkeditzz"
+  ],
+  "author": "Arkeditzz",
+  "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "^6.6.0",
     "axios": "^1.7.0",
     "ytdl-core": "^4.11.5",
     "pino": "^8.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
